@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Historical Cities and Tourist Destination in Pakistan</title>
+
+  <!-- ================= CSS ================= -->
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      margin: 0;
+      background-color: #f2f2f2;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #0a5c36;
+      color: white;
+      padding: 25px;
+      text-align: center;
+    }
+
+    nav {
+      background: #177245;
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      margin: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 14px;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .container {
+      width: 90%;
+      margin: auto;
+      padding: 20px;
+    }
+
+    .city {
+      background: white;
+      margin-bottom: 25px;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 8px rgba(0,0,0,0.1);
+    }
+
+    .city h2 {
+      color: #0a5c36;
+    }
+
+    .city img {
+      width: 100%;
+      max-height: 350px;
+      object-fit: cover;
+      border-radius: 8px;
+      margin: 10px 0;
+    }
+
+    button {
+      background: #177245;
+      color: white;
+      border: none;
+      padding: 8px 15px;
+      cursor: pointer;
+      border-radius: 5px;
+      margin-top: 10px;
+    }
+
+    button:hover {
+      background: #0a5c36;
+    }
+
+    footer {
+      background: #0a5c36;
+      color: white;
+      text-align: center;
+      padding: 12px;
+    }
+
+    .more {
+      display: none;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>Historical Cities and Tourist Destination in Pakistan</h1>
+  <p>Culture, Famous Food & Historical Places of Pakistan</p>
+</header>
+
+<nav>
+  <a href="#lahore">Lahore</a>
+  <a href="#taxila">Taxila</a>
+  <a href="#mohenjo">Mohenjo-daro</a>
+  <a href="#harappa">Harappa</a>
+  <a href="#multan">Multan</a>
+  <a href="#peshawar">Peshawar</a>
+  <a href="#karachi">Karachi</a>
+  <a href="#murree">Murree</a>
+  <a href="#hunza">Hunza</a>
+  <a href="#skardu">Skardu</a>
+  <a href="#naran">Naran & Kaghan</a>
+  <a href="#swat">Swat</a>
+  <a href="#chitral">Chitral</a>
+  <a href="#bahawalpur">Bahawalpur</a>
+</nav>
+
+<div class="container">
+
+<!-- ================= Lahore ================= -->
+<div class="city" id="lahore">
+  <h2>Lahore</h2>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/Badshahi_Mosque_Lahore.jpg" alt="Badshahi Mosque">
+  <p>Lahore is the cultural heart of Pakistan, famous for its history, literature, and Mughal architecture.</p>
+  <p class="more"><b>Culture:</b> Punjabi culture, music, poetry, festivals.<br>
+     <b>Famous Food:</b> Nihari, Paye, Lahori Chargha.<br>
+     <b>Famous Places:</b> Badshahi Mosque, Lahore Fort, Minar-e-Pakistan.</p>
+  <button onclick="toggle(this)">Read More</button>
+</div>
+
+<!-- ================= Taxila ================= -->
+<div class="city" id="taxila">
+  <h2>Taxila</h2>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/9/9b/Taxila_Ruins.jpg" alt="Taxila Ruins">
+  <p>Taxila is an ancient city known for Buddhist learning and Gandhara civilization.</p>
+  <p class="more"><b>Culture:</b> Gandhara Buddhist culture.<br>
+     <b>Famous Food:</b> Traditional Punjabi dishes.<br>
+     <b>Famous Places:</b> Taxila Museum, Dharmarajika Stupa.</p>
+  <button onclick="toggle(this)">Read More</button>
+</div>
+
+<!-- ================= Mohenjo-daro ================= -->
+<div class="city" id="mohenjo">
+  <h2>Mohenjo-daro</h2>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Mohenjo-daro.jpg" alt="Mohenjo-daro">
+  <p>Mohenjo-daro is one of the world's oldest planned cities of the Indus Valley Civilization.</p>
+  <p class="more"><b>Culture:</b> Ancient Indus Valley culture.<br>
+     <b>Famous Places:</b> Great Bath, Ancient ruins.</p>
+  <button onclick="toggle(this)">Read More</button>
+</div>
+
+<!-- ================= Harappa ================= -->
+<div class="city" id="harappa">
+  <h2>Harappa</h2>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/3/36/Harappa_Ruins.jpg" alt="Harappa">
+  <p>Harappa is a major archaeological site of the Indus Valley Civilization.</p>
+  <p class="more"><b>Culture:</b> Ancient civilization heritage.<br>
+     <b>Famous Places:</b> Harappa ruins, museum.</p>
+  <button onclick="toggle(this)">Read More</button>
+</div>
+
+<!-- ================= Multan ================= -->
+<div class="city" id="multan">
+  <h2>Multan</h2>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/7/77/Shrine_of_Bahauddin_Zakariya.jpg" alt="Multan Shrine">
+  <p>Multan is known as the City of Saints, famous for Sufi shrines.</p>
+  <p class="more"><b>Culture:</b> Sufi culture and traditions.<br>
+     <b>Famous Food:</b> Sohan Halwa.<br>
+     <b>Famous Places:</b> Shrine of Bahauddin Zakariya, Shah Rukn-e-Alam.</p>
+  <button onclick="toggle(this)">Read More</button>
+</div>
+
+<!-- ================= Peshawar ================= -->
+<div class="city" id="peshawar">
+  <h2>Peshawar</h2>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/3/3e/Mahabat_Khan_Mosque.jpg" alt="Mahabat Khan Mosque">
+  <p>Peshawar is one of the oldest cities of South Asia with rich Pashtun culture.</p>
+  <p class="more"><b>Culture:</b> Pashtun traditions and hospitality.<br>
+     <b>Famous Food:</b> Chapli Kebab.<br>
+     <b>Famous Places:</b> Mahabat Khan Mosque, Qissa Khwani Bazaar.</p>
+  <button onclick="toggle(this)">Read More</button>
+</div>
+
+<!-- ================= Karachi ================= -->
+<div class="city" id="karachi">
+  <h2>Karachi</h2>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Mazar-e-Quaid.jpg" alt="Mazar-e-Quaid">
+  <p>Karachi is the largest city and economic hub of Pakistan.</p>
+  <p class="more"><b>Culture:</b> Multi-ethnic and modern culture.<br>
+     <b>Famous Food:</b> Biryani, Nihari.<br>
+     <b>Famous Places:</b> Mazar-e-Quaid, Clifton Beach.</p>
+  <button onclick="toggle(this)">Read More</button>
+</div>
+
+<!-- ================= Murree ================= -->
+<div class="city" id="murree">
+  <h2>Murree</h2>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/8/86/Murree_Hills.jpg" alt="Murree Hills">
+  <p>Murree is a famous hill station known for pleasant weather.</p>
+  <p class="more"><b>Culture:</b> Mountain lifestyle.<br>
+     <b>Famous Places:</b> Mall Road, Patriata.</p>
+  <button onclick="toggle(this)">Read More</button>
+</div>
+
+<!-- ================= Hunza ================= -->
+<div class="city" id="hunza">
+  <h2>Hunza</h2>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/3/36/Hunza_Valley.jpg" alt="Hunza Valley">
+  <p>Hunza Valley is famous for breathtaking scenery and peaceful culture.</p>
+  <p class="more"><b>Culture:</b> Hunza traditions and music.<br>
+     <b>Famous Places:</b> Baltit Fort, Altit Fort.</p>
+  <button onclick="toggle(this)">Read More</button>
+</div>
+
+<!-- ================= Skardu ================= -->
+<div class="city" id="skardu">
+  <h2>Skardu</h2>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Upper_Kachura_Lake.jpg" alt="Skardu Lake">
+  <p>Skardu is a gateway to some of the world's highest mountains.</p>
+  <p class="more"><b>Culture:</b> Balti culture.<br>
+     <b>Famous Places:</b> Shangrila Lake, Deosai Plains.</p>
+  <button onclick="toggle(this)">Read More</button>
+</div>
+
+<!-- ================= Naran & Kaghan ================= -->
+<div class="city" id="naran">
+  <h2>Naran & Kaghan</h2>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/9/9c/Saif_ul_Maluk_Lake.jpg" alt="Saif-ul-Maluk">
+  <p>These valleys are known for lakes, glaciers, and lush greenery.</p>
+  <p class="more"><b>Culture:</b> Local mountain culture.<br>
+     <b>Famous Places:</b> Lake Saif-ul-Maluk.</p>
+  <button onclick="toggle(this)">Read More</button>
+</div>
+
+<!-- ================= Swat ================= -->
+<div class="city" id="swat">
+  <h2>Swat</h2>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Swat_Valley.jpg" alt="Swat Valley">
+  <p>Swat is called the Switzerland of Pakistan.</p>
+  <p class="more"><b>Culture:</b> Pashtun culture.<br>
+     <b>Famous Places:</b> Malam Jabba, Mingora.</p>
+  <button onclick="toggle(this)">Read More</button>
+</div>
+
+<!-- ================= Chitral ================= -->
+<div class="city" id="chitral">
+  <h2>Chitral Valley</h2>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Chitral_Valley.jpg" alt="Chitral Valley">
+  <p>Chitral is famous for Kalash culture and scenic beauty.</p>
+  <p class="more"><b>Culture:</b> Kalash and Chitrali traditions.<br>
+     <b>Famous Places:</b> Kalash Valleys, Chitral Fort.</p>
+  <button onclick="toggle(this)">Read More</button>
+</div>
+
+<!-- ================= Bahawalpur ================= -->
+<div class="city" id="bahawalpur">
+  <h2>Bahawalpur</h2>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/0/02/Noor_Mahal.jpg" alt="Noor Mahal">
+  <p>Bahawalpur is known for its royal heritage and desert culture.</p>
+  <p class="more"><b>Culture:</b> Saraiki culture.<br>
+     <b>Famous Places:</b> Noor Mahal, Derawar Fort.</p>
+  <button onclick="toggle(this)">Read More</button>
+</div>
+
+</div>
+
+<footer>
+  <p>© Pakistan Tourism | Educational Website</p>
+</footer>
+
+<!-- ================= JavaScript ================= -->
+<script>
+  function toggle(btn) {
+    let moreText = btn.previousElementSibling;
+    if (moreText.style.display === "none" || moreText.style.display === "") {
+      moreText.style.display = "block";
+      btn.innerText = "Read Less";
+    } else {
+      moreText.style.display = "none";
+      btn.innerText = "Read More";
+    }
+  }
+</script>
+
+</body>
+</html>
